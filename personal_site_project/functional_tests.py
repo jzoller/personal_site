@@ -11,7 +11,7 @@ class MainPageTest(unittest.TestCase):
 
     def test_main_page_has_correct_content(self):
         self.browser.get('http://localhost:8000')
-        self.assertIn('Jaosn Zoller', self.browser.title)
+        self.assertIn('Jason Zoller', self.browser.title)
 
         # Next, test basic content
 
